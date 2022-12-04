@@ -1,0 +1,11 @@
+/home/bogdanm/Dev/bytepods/target/debug/deps/parking_lot_core-556f161462724c3d.rmeta: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/linux.rs
+
+/home/bogdanm/Dev/bytepods/target/debug/deps/parking_lot_core-556f161462724c3d.d: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/linux.rs
+
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/linux.rs:

@@ -1,0 +1,6 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-buildUKWg6I/prost-descriptor-set" "-I" "src/v2" "src/v2/message.proto"
+prost: " Unix expiration time (UTC)"
+prost: " relay addrs for reserving peer"
+prost: " reservation voucher"
+prost: " seconds"
+prost: " bytes"

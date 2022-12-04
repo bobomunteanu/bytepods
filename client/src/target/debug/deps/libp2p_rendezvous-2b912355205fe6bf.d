@@ -1,0 +1,15 @@
+/home/bogdanm/Dev/bytepods/target/debug/deps/libp2p_rendezvous-2b912355205fe6bf.rmeta: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/codec.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/inbound.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/outbound.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/substream_handler.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/client.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/server.rs /home/bogdanm/Dev/bytepods/target/debug/build/libp2p-rendezvous-42f83719bb4ae623/out/rendezvous.pb.rs
+
+/home/bogdanm/Dev/bytepods/target/debug/deps/libp2p_rendezvous-2b912355205fe6bf.d: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/codec.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/inbound.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/outbound.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/substream_handler.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/client.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/server.rs /home/bogdanm/Dev/bytepods/target/debug/build/libp2p-rendezvous-42f83719bb4ae623/out/rendezvous.pb.rs
+
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/lib.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/codec.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/inbound.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/handler/outbound.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/substream_handler.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/client.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libp2p-rendezvous-0.11.0/src/server.rs:
+/home/bogdanm/Dev/bytepods/target/debug/build/libp2p-rendezvous-42f83719bb4ae623/out/rendezvous.pb.rs:
+
+# env-dep:OUT_DIR=/home/bogdanm/Dev/bytepods/target/debug/build/libp2p-rendezvous-42f83719bb4ae623/out

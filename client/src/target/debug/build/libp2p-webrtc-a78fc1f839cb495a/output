@@ -1,0 +1,6 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-buildke6Qj2/prost-descriptor-set" "-I" "src" "src/message.proto"
+prost: " The sender will no longer send messages on the stream."
+prost: " The sender will no longer read messages on the stream. Incoming data is"
+prost: " being discarded on receipt."
+prost: " The sender abruptly terminates the sending part of the stream. The"
+prost: " receiver can discard any data that it already received on that stream."

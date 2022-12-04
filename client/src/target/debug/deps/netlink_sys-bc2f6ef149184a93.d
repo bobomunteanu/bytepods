@@ -1,0 +1,12 @@
+/home/bogdanm/Dev/bytepods/target/debug/deps/netlink_sys-bc2f6ef149184a93.rmeta: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/constants.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/socket.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/addr.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket_ext.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/tokio.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/smol.rs
+
+/home/bogdanm/Dev/bytepods/target/debug/deps/netlink_sys-bc2f6ef149184a93.d: /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/lib.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/constants.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/socket.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/addr.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket_ext.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/tokio.rs /home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/smol.rs
+
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/lib.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/constants.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/socket.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/addr.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/async_socket_ext.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/tokio.rs:
+/home/bogdanm/.cargo/registry/src/github.com-1ecc6299db9ec823/netlink-sys-0.8.3/src/smol.rs:

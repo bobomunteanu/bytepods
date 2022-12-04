@@ -1,0 +1,2 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-build8Z2q2a/prost-descriptor-set" "-I" "src" "src/io/handshake/payload.proto"
+prost: " Payloads for Noise handshake messages."

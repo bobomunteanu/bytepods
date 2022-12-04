@@ -1,0 +1,1 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-buildDzBCAw/prost-descriptor-set" "-I" "src" "src/structs.proto"

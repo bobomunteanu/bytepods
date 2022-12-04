@@ -1,0 +1,6 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-buildibRHis/prost-descriptor-set" "-I" "src" "src/message.proto"
+prost: " For hole punching, we'll send some additional observed addresses to the remote peer"
+prost: " that could have been filtered by the Host address factory (for example: AutoRelay removes all public addresses if peer has private reachability)."
+prost: " This is a hack!"
+prost: " We plan to have a better address discovery and advertisement mechanism in the future."
+prost: " See https://github.com/libp2p/go-libp2p-autonat/pull/98"

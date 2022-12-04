@@ -1,0 +1,3 @@
+Running: "/usr/bin/protoc" "--include_imports" "--include_source_info" "-o" "/tmp/prost-buildYThiWb/prost-descriptor-set" "-I" "src" "src/rpc.proto"
+prost: " in seconds"
+prost: " in seconds"
