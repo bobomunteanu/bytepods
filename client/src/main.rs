@@ -1,21 +1,27 @@
 use futures::{SinkExt, StreamExt};
 use tokio::io::AsyncBufReadExt;
 use tokio::sync::mpsc;
-use tokio_tungstenite::connect_async;
+use tokio_tungstenite::{connect_async, MaybeTlsStream};
 use tungstenite::protocol::Message;
 use tokio_stream::wrappers::UnboundedReceiverStream;
+use public_ip;
 
 #[tokio::main]
 async fn main() {
 
-    let connect_addr = "ws://localhost:8080/chat";
+    let connect_addr = "ws://127.0.0.1:8000/chat";
     let url = url::Url::parse(&connect_addr).unwrap();
     let (mut ws_stream, _) = connect_async(url).await
         .expect("Failed to connect to rendezvous server");
 
+
     println!("WebSocket handshake succesfully completed");
     let (tx_stdin, rx) = mpsc::unbounded_channel();
     let mut rx = UnboundedReceiverStream::new(rx);
+
+    let ip = public_ip::addr().await;
+    let _t =  ip.as_ref().map(|x| tx_stdin.send(x.to_string())).unwrap();
+
     
     //read from stdin
     let stdin_loop = async move {
@@ -80,6 +86,3 @@ async fn main() {
     assert!(ws_stream.next().await.is_none());
     let _ = ws_stream.close(None).await;
 }
-
-
-

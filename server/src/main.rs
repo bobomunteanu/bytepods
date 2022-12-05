@@ -1,19 +1,22 @@
 use std::collections::HashMap;
+use std::net::IpAddr;
 use std::sync::{
     atomic::{AtomicUsize, Ordering},
     Arc,
 };
-
 use futures::{FutureExt, StreamExt};
 use tokio::sync::{mpsc, RwLock};
 use tokio_stream::wrappers::UnboundedReceiverStream;
 use warp::ws::{Message, WebSocket};
 use warp::Filter;
+use std::str::FromStr;
 
 static NEXT_USER_ID: AtomicUsize = AtomicUsize::new(1);
 static INDEX_HTML: &str = std::include_str!("../static/index.html");
 
 type Users = Arc<RwLock<HashMap<usize, mpsc::UnboundedSender<Result<Message, warp::Error>>>>>;
+
+static  mut ip_list: Vec<IpAddr> = Vec::new();
 
 #[tokio::main]
 async fn main() {
@@ -41,6 +44,7 @@ async fn user_connected(ws: WebSocket, users: Users) {
 
     let (tx, rx) = mpsc::unbounded_channel();
     let rx = UnboundedReceiverStream::new(rx);
+
     tokio::task::spawn(rx.forward(user_ws_tx).map(|result| {
         if let Err(e) = result {
             eprintln!("websocket send error: {}", e);
@@ -59,28 +63,27 @@ async fn user_connected(ws: WebSocket, users: Users) {
                 break;
             }
         };
-        user_message(my_id, msg, &users).await;
+        user_message(msg).await;
+        unsafe {
+            println!("{:?}", ip_list);
+        }
     }
 
     user_disconnected(my_id, &users2).await;
 }
 
-async fn user_message(my_id: usize, msg: Message, users: &Users) {
+async fn user_message(ip: Message){
     // Skip any non-Text messages...
-    let msg = if let Ok(s) = msg.to_str() {
+    let ip = if let Ok(s) = ip.to_str() {
         s
     } else {
-        return;
+        return()
     };
 
-    let new_msg = format!("<User#{}>: {}", my_id, msg);
+    let addr = IpAddr::from_str(ip).expect("failed to parse to ip address");
 
-    for (&uid, tx) in users.read().await.iter() {
-        if my_id != uid {
-            if let Err(_disconnected) = tx.send(Ok(Message::text(new_msg.clone()))) {
-                // nothing to do here, `user_disconnected` handles it
-            }
-        }
+    unsafe {
+        ip_list.push(addr);
     }
 }
 
